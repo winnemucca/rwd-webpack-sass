@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "font-awesome": "^4.7.0",
+    "font-awesome-sass-loader": "^1.0.3",
     "webpack": "^2.2.1"
   },
   "devDependencies": {

@@ -1,1 +1,2 @@
-require('./style.scss')
+require('./style.scss');
+require("font-awesome-sass-loader");
