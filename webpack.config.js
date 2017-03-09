@@ -1,6 +1,6 @@
 module.exports = {
   entry: [
-     "font-awesome-sass!./font-awesome.config.js",
+     //"font-awesome-sass!./font-awesome-sass.config.js",
     './app.js'
   ],
   output: {
