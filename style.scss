@@ -5,3 +5,10 @@ body {
     color: #fff;
   }
 }
+
+
+
+@mixin when-xs() { @media (max-width: $screen-xs-max) { @content; } }
+@mixin when-sm() { @media (min-width: $screen-sm-min) { @content; } }
+@mixin when-md() { @media (min-width: $screen-md-min) { @content; } }
+@mixin when-lg() { @media (min-width: $screen-lg-min) { @content; } }
